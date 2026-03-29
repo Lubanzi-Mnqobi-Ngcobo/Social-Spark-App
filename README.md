@@ -1,2 +1,4 @@
 # Social-Spark-App
-This is my Social Spark Appliction
+
+This is my Social Spark Application
+
