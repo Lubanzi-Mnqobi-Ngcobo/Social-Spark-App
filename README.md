@@ -5,6 +5,6 @@ Social Spark solves this by providing quick “social spark” suggestions that 
 The application's purpose is to encourage Cora with daily social interactions, by helping her stay connected with friends and family throughout the day.
 To also provide quick and easy interaction suggestions based on the current time Cora uses it.
 
-In terms of it's design consideration, I wanted to make it easy to use by using a minimalistic UI design, for it to have smooth and instant suggestion responses, the ability to handle different input formats (eg. MoRning = morning) by incorporating lowercase() and trim(). The design consideration was the error handling section where a friendly message will appear with suggestion to aid the user, in this case Cora.
+In terms of it's design consideration, I wanted to make it easy to use by using a minimalistic UI design, for it to have smooth and instant suggestion responses, the ability to handle different input formats (eg. MoRning = morning) by incorporating lowercase() and trim(). Another design consideration was the error handling section where a friendly message will appear with suggestion to aid the user, in this case Cora.
 
 The project was then commited to GitHub and I have utilised GitHub actions to ensure it's usabilty on not only my computer by others as well.
