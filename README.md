@@ -9,6 +9,7 @@ In terms of it's design consideration, I wanted to make it easy to use by using 
 
 Logging has been incoporated and I have left comments to better understand my code.
 
+<img width="1828" height="952" alt="studio64_8pGA5H0brM" src="https://github.com/user-attachments/assets/33344b59-4947-4139-8ba3-921f3623e935" />
 
 
 The project was then commited to GitHub and I have utilised GitHub actions to ensure it's usabilty on not only my computer by others as well.
