@@ -7,4 +7,9 @@ To also provide quick and easy interaction suggestions based on the current time
 
 In terms of it's design consideration, I wanted to make it easy to use by using a minimalistic UI design, for it to have smooth and instant suggestion responses, the ability to handle different input formats (eg. MoRning = morning) by incorporating lowercase() and trim(). Another design consideration was the error handling section where a friendly message will appear with suggestion to aid the user, in this case Cora.
 
+Logging has been incoporated and I have left comments to better understand my code.
+
+<img width="1589" height="940" alt="studio64_NudN8huiii" src="https://github.com/user-attachments/assets/7662cc69-09e0-4be1-8b99-f10eeffebef3" />
+
+
 The project was then commited to GitHub and I have utilised GitHub actions to ensure it's usabilty on not only my computer by others as well.
