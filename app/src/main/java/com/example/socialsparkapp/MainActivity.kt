@@ -1,6 +1,7 @@
 package com.example.socialsparkapp
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -28,6 +29,9 @@ class MainActivity : AppCompatActivity() {
             // Once the user input is in, fetch it and clean it up
             val input = edtTimeOfDay.text.toString().lowercase().trim()
 
+            // Log the input for debugging
+            Log.d("Social Spark", " User input: $input")
+
 
             // Determine suggestion based on input
              val result = when (input) {
@@ -38,6 +42,9 @@ class MainActivity : AppCompatActivity() {
                 "night" -> "Leave a thoughtful comment on a friend's post"
                 else -> "Nice Attempt, Please try again with suggestions :) (morning, mid-morning, afternoon snack time, afternoon, dinner, night)"
             }
+
+            // Log the reult
+            Log.d("Social Spark", "Suggestion result: $result")
 
             // Display the result
             ansBubble.text = result
